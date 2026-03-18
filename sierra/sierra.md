@@ -17,7 +17,7 @@ Esto ayuda a que la página sea más clara y fácil de entender.
 ## Árbol DOM
 
 La estructura de la página es:
-
+```
 html
  └── body
       ├── header

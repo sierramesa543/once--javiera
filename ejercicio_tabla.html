@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Torneo de Videojuegos</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      padding: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 800px;
+      margin: auto;
+      background-color: white;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #2c3e50;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #ecf0f1;
+    }
+
+    tfoot {
+      background-color: #27ae60;
+      color: white;
+      font-weight: bold;
+    }
+
+    .region {
+      font-weight: bold;
+      background-color: #dfe6e9;
+    }
+
+    .ganador {
+      color: green;
+      font-weight: bold;
+    }
+
+    .perdedor {
+      color: red;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1 style="text-align:center;">🎮 Clasificación Torneo de Videojuegos</h1>
+
+  <table>
+
+    <!-- ================= THEAD ================= -->
+    <thead>
+      <tr>
+        <!-- Hay 7 columnas → colspan correcto -->
+        <th colspan="7">🏆 Tabla General del Torneo</th>
+      </tr>
+      <tr>
+        <th>Región</th>
+        <th>Equipo</th>
+        <th>J</th>
+        <th>G</th>
+        <th>P</th>
+        <th>Puntos</th>
+        <th>Estado</th>
+      </tr>
+    </thead>
+
+    <!-- ================= TBODY ================= -->
+    <tbody>
+
+      <!-- Región Norte -->
+      <tr>
+        <td rowspan="2" class="region">Norte</td>
+        <td>Equipo Alpha</td>
+        <td>5</td>
+        <td>4</td>
+        <td>1</td>
+        <td>980</td>
+        <td class="ganador">Clasificado</td>
+      </tr>
+
+      <tr>
+        <td>Equipo Beta</td>
+        <td>5</td>
+        <td>3</td>
+        <td>2</td>
+        <td>870</td>
+        <td class="ganador">Clasificado</td>
+      </tr>
+
+      <!-- Región Sur -->
+      <tr>
+        <td rowspan="2" class="region">Sur</td>
+        <td>Equipo Gamma</td>
+        <td>5</td>
+        <td>4</td>
+        <td>1</td>
+        <td>920</td>
+        <td class="ganador">Clasificado</td>
+      </tr>
+
+      <tr>
+        <td>Equipo Delta</td>
+        <td>5</td>
+        <td>2</td>
+        <td>3</td>
+        <td>750</td>
+        <td class="perdedor">Eliminado</td>
+      </tr>
+
+    </tbody>
+
+    <!-- ================= TFOOT ================= -->
+    <tfoot>
+      <tr>
+        <!-- 5 + 2 = 7 columnas ✔ -->
+        <td colspan="5">🥇 Campeón del torneo</td>
+        <td colspan="2">Equipo Alpha</td>
+      </tr>
+      <tr>
+        <td colspan="5">👥 Total de participantes</td>
+        <td colspan="2">4 equipos</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+# Resumen - Clase 6: Diagramas de Actividades
+
+## ¿Qué es un diagrama de actividades?
+
+Es un diagrama UML que representa el flujo de trabajo o secuencia de actividades de un proceso dentro de un sistema.
+
+## Objetivos
+
+* Modelar procesos de negocio.
+* Representar flujos de trabajo.
+* Mostrar decisiones y acciones.
+* Facilitar la comprensión de procesos complejos.
+
+## Elementos principales
+
+### Nodo inicial
+
+Indica dónde comienza el proceso.
+
+### Actividad
+
+Representa una tarea o acción que se realiza.
+
+### Decisión
+
+Permite elegir entre diferentes caminos según una condición.
+
+### Flujo de control
+
+Muestra la secuencia entre actividades.
+
+### Nodo final
+
+Indica la terminación del proceso.
+
+## Ventajas
+
+* Visualiza procesos de forma clara.
+* Ayuda a detectar errores o redundancias.
+* Facilita la comunicación entre usuarios y desarrolladores.
+* Mejora el análisis y diseño del sistema.
+
+## Importancia
+
+Los diagramas de actividades permiten entender cómo funcionan los procesos dentro de un sistema y cómo se relacionan las diferentes tareas para alcanzar un objetivo.

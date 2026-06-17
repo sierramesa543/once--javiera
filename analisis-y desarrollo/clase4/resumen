@@ -1,0 +1,42 @@
+# Resumen - Clase 4: Casos de Uso
+
+## ¿Qué es un caso de uso?
+
+Un caso de uso es una técnica utilizada para describir cómo interactúa un usuario (actor) con un sistema para lograr un objetivo específico.
+
+## Elementos de un caso de uso
+
+### Actor
+
+Es la persona, organización o sistema que interactúa con el software.
+
+### Sistema
+
+Conjunto de funciones que responden a las acciones del actor.
+
+### Escenario
+
+Secuencia de pasos que describe la interacción entre el actor y el sistema.
+
+## Importancia de los casos de uso
+
+* Ayudan a comprender los requisitos funcionales.
+* Facilitan la comunicación entre usuarios y desarrolladores.
+* Permiten identificar procesos del sistema.
+* Sirven como base para el diseño y las pruebas.
+
+## Estructura básica
+
+1. Nombre del caso de uso.
+2. Actor principal.
+3. Objetivo.
+4. Flujo principal.
+5. Flujos alternativos.
+6. Resultado esperado.
+
+## Ventajas
+
+* Mejor comprensión del sistema.
+* Documentación clara.
+* Detección temprana de errores.
+* Facilitan el desarrollo del software.

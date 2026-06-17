@@ -1,0 +1,41 @@
+# Resumen - Clase 5: Diagramas de Casos de Uso
+
+## ¿Qué son los diagramas de casos de uso?
+
+Son diagramas de UML que representan gráficamente las interacciones entre los actores y las funcionalidades de un sistema.
+
+## Objetivos
+
+* Mostrar los servicios que ofrece el sistema.
+* Identificar los actores que interactúan con él.
+* Facilitar la comprensión de los requisitos funcionales.
+* Servir como base para el diseño del software.
+
+## Elementos principales
+
+### Actor
+
+Representa una persona, organización o sistema externo que interactúa con el sistema.
+
+### Caso de uso
+
+Representa una función o servicio que ofrece el sistema.
+
+### Relación
+
+Conecta actores con casos de uso para mostrar la interacción.
+
+### Límite del sistema
+
+Delimita las funcionalidades que pertenecen al sistema.
+
+## Ventajas
+
+* Visualización sencilla de los requisitos.
+* Mejor comunicación entre cliente y desarrollador.
+* Facilita la planificación del proyecto.
+* Ayuda a identificar funciones del sistema.
+
+## Importancia
+
+Los diagramas de casos de uso permiten comprender de manera rápida cómo los usuarios interactúan con el sistema y cuáles son sus principales funcionalidades.
